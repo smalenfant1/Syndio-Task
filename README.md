@@ -33,8 +33,8 @@ Run 'download_file_from_bucket.py'. It will connect to the bucket and download t
 Another option is to use a script and run 'create_dataset.py'
 
 ### Final step is populate the dataset with values from our clean CSV file
-Run 'WriteToBigQuery" script where you need to specify your input and output
-'python WriteToBigQuery.py --input temp_csv_file.csv --output syndio-406616.compensation_dataset_1'
+Run 'WriteToBigQuery" script where you need to specify your input
+'python WriteToBigQuery.py --input temp_csv_file.csv'
 This will upload data in JSON format.
 
 If you run upload_to_dataset.py then it will be uploaded as CSV format.
